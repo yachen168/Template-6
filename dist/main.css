@@ -6,6 +6,11 @@ a {
   text-decoration: none;
 }
 
+* {
+  outline: 1px solid;
+  box-sizing: border-box;
+}
+
 .template > img {
   width: 100%;
 }
