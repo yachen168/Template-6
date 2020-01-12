@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-// body {
-//     background: url('/images/bg.jpg');
-//     box-shadow: inset 0 92px black, inset 0 -220px black;
-// }
+body {
+    background: url('../images/bg.jpg');
+    box-shadow: inset 0 92px $black, inset 0 -220px $black;
+}
