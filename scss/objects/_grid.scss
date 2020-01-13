@@ -1,0 +1,47 @@
+.container {
+    background-color: red;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 25px 25px;
+}
+
+.col {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+//  12 欄 grid
+// col-裝置-所佔等份
+// 在 mobile 下，佔 12 欄中的 6 欄，也就是 1/2 = 50%。
+.col-mobile-6 {
+    @include mediaquery-mobile {
+        width: 50%;
+    }
+}
+
+// 在 tablet 下，佔 12 欄中的 4 欄，也就是 1/3 = 33.33%。
+.col-tablet-4 {
+    @include mediaquery-tablet {
+        width: 33.333%;
+    }
+}
+
+// 在 desktop 下，佔 12 欄中的 3 欄，也就是 1/4 = 25%。
+.col-desktop-3 {
+    @include mediaquery-desktop {
+        width: 25%;
+    }
+}
+
+.col-tablet-6 {
+    @include mediaquery-tablet {
+        width: 50%;
+    }
+}
