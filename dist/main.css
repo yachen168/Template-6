@@ -92,12 +92,21 @@ header {
 }
 .media > a {
   display: inline-block;
-  background: url("/images/social.png");
+  background: url("/images/social.png") no-repeat;
   width: 28px;
   height: 28px;
 }
-.media > a:first-child {
-  background-position: 0 0;
+.media > a:nth-child(2) {
+  background-position: -37px 0;
+}
+.media > a:nth-child(3) {
+  background-position: -74px 0;
+}
+.media > a:nth-child(4) {
+  background-position: -110px 0;
+}
+.media > a:nth-child(5) {
+  background-position: -150px 0;
 }
 .media span {
   display: inline-block;
