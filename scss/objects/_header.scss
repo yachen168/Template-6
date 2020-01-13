@@ -20,17 +20,34 @@ header {
         width: 28px;
         height: 28px;
     }
+    >a:nth-child(1) {
+        &:hover {
+            background-position: 0 -27px;
+        }
+    }
     >a:nth-child(2) {
         background-position: -37px 0;
+        &:hover {
+            background-position: -37px -27px;
+        }
     }
     >a:nth-child(3) {
         background-position: -74px 0;
+        &:hover {
+            background-position: -74px -27px;
+        }
     }
     >a:nth-child(4) {
         background-position: -110px 0;
+        &:hover {
+            background-position: -110px -27px;
+        }
     }
     >a:nth-child(5) {
         background-position: -150px 0;
+        &:hover {
+            background-position: -150px -27px;
+        }
     }
     span {
         display: inline-block;
