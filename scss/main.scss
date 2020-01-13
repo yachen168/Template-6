@@ -1,10 +1,13 @@
 // settings
 @import 'settings/colors';
 // tools
+@import 'tools/mediaquery';
 // generic
 @import 'generic/reset';
 // elements
 @import 'elements/base';
 // objects
 @import 'objects/template';
+@import 'objects/grid';
+@import 'objects/header';
 // components
