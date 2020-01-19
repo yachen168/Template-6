@@ -1,31 +1,33 @@
 header {
     text-align: center;
     color: $black;
+    padding: 35px 25px;
 }
 
 .logo {
-    width: 320px;
+    display: block;
+    width: 100%;
+    max-width: 320px;
     margin: 0 auto;
     @include mediaquery-tablet {
-        margin-left: 0;
+        float: left;
     }
 }
 
 .media {
-    width: 320px;
     margin: 0 auto;
-    >a {
+    a {
         display: inline-block;
         background: url('/images/social.png') no-repeat;
         width: 28px;
         height: 28px;
     }
-    >a:nth-child(1) {
+    a:nth-child(1) {
         &:hover {
             background-position: 0 -27px;
         }
     }
-    >a:nth-child(2) {
+    a:nth-child(2) {
         background-position: -37px 0;
         &:hover {
             background-position: -37px -27px;
@@ -49,15 +51,12 @@ header {
             background-position: -150px -27px;
         }
     }
-    span {
-        display: inline-block;
-        width: 100%;
+    >h4 {
         font-size: 13px;
         font-weight: 500;
         margin-top: 10px;
     }
     @include mediaquery-tablet {
-        margin-right: 0;
-        text-align: right;
+        float: right;
     }
 }
