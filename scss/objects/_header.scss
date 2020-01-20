@@ -7,17 +7,18 @@ header {
 }
 
 .logo {
-    margin: 0 auto;
-    max-width: 320px;
+    margin: 0 auto 10px;
     @include mediaquery-tablet {
-        margin-left: 0;
-        width: 320px;
+        float: left;
+        margin-bottom: 0;
     }
 }
 
 .media {
-    margin: 0 auto;
-    >a {
+    .media-wrapper {
+        display: flow-root;
+    }
+    a {
         display: inline-block;
         background: url('/images/social.png') no-repeat;
         width: 28px;
