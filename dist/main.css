@@ -8,7 +8,6 @@ a {
 }
 
 * {
-  outline: 1px solid;
   box-sizing: border-box;
 }
 
@@ -81,23 +80,26 @@ img {
 header {
   text-align: center;
   color: #161616;
-  padding: 35px 25px;
+  padding: 35px 40px;
+  background-color: #ffffff;
+  overflow: hidden;
 }
 
 .logo {
   display: block;
   width: 100%;
   max-width: 320px;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 @media all and (min-width: 768px) {
   .logo {
     float: left;
+    margin-bottom: 0;
   }
 }
 
-.media {
-  margin: 0 auto;
+.media .media-wrapper {
+  display: flow-root;
 }
 .media a {
   display: inline-block;
@@ -114,32 +116,32 @@ header {
 .media a:nth-child(2):hover {
   background-position: -37px -27px;
 }
-.media > a:nth-child(3) {
+.media a:nth-child(3) {
   background-position: -74px 0;
 }
-.media > a:nth-child(3):hover {
+.media a:nth-child(3):hover {
   background-position: -74px -27px;
 }
-.media > a:nth-child(4) {
+.media a:nth-child(4) {
   background-position: -110px 0;
 }
-.media > a:nth-child(4):hover {
+.media a:nth-child(4):hover {
   background-position: -110px -27px;
 }
-.media > a:nth-child(5) {
+.media a:nth-child(5) {
   background-position: -150px 0;
 }
-.media > a:nth-child(5):hover {
+.media a:nth-child(5):hover {
   background-position: -150px -27px;
 }
-.media > h4 {
+.media h4 {
   font-size: 13px;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 @media all and (min-width: 768px) {
   .media {
-    float: right;
+    text-align: right;
   }
 }
 
