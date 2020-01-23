@@ -18,7 +18,6 @@ body {
   box-shadow: inset 0 92px #161616, inset 0 -220px #161616; }
 
 img {
-  width: 100%;
   vertical-align: middle; }
 
 .template {
@@ -138,3 +137,6 @@ nav {
   display: inline-block;
   width: 25%;
   padding: 5px 15px; }
+
+.swiper-container {
+  height: 600px; }
