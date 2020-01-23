@@ -1,0 +1,29 @@
+nav {
+    margin-top: 30px;
+    background-color: #fff;
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    font-size: 0;
+    margin-right: 10px;
+    width: 75%;
+    text-align: center;
+    a {
+        padding: 15px 25px;
+        font-size: 13px;
+        color: $black;
+        &:hover {
+            background-color: $green;
+            color: $white
+        }
+    }
+}
+
+.search {
+    display: inline-block;
+    width: 25%;
+    padding: 5px 15px;
+    input {}
+}
