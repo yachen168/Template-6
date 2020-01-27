@@ -59,6 +59,7 @@ header {
     h4 {
         font-size: 13px;
         font-weight: 500;
+        color: $darkGray;
         margin-top: 0px;
     }
     @include mediaquery-tablet {
