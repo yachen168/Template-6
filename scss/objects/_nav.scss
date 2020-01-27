@@ -4,7 +4,7 @@ nav {
     display: flex;
 }
 
-.nav-list {
+.nav-menu {
     display: flex;
     font-size: 0;
     margin-right: 10px;
@@ -19,11 +19,60 @@ nav {
             color: $white
         }
     }
+    a+a {
+        border-right: 1px solid #eee;
+    }
 }
 
 .search {
     display: inline-block;
     width: 25%;
     padding: 5px 15px;
-    input {}
+}
+
+ul {
+    padding: 0;
+}
+
+ul a {
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+}
+
+
+/* ===================================
+   下拉式選單
+   ===================================*/
+
+.drop-down {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 8;
+    transition: opacity 0.5s ease;
+}
+
+.submenu-item {
+    display: block;
+    transition: height 0.5s ease;
+}
+
+.drop-down:hover .submenu {
+    position: absolute;
+    display: block;
+    background-color: $white;
+}
+
+.drop-down:hover .submenu-item {
+    overflow: visible;
+}
+
+.fa-angle-down {
+    font-size: 12px;
+    padding-left: 5px;
 }
