@@ -98,9 +98,8 @@ header {
     position: absolute;
     pointer-events: none;
     color: #9E9E9E;
-    right: 10%;
-    top: 50%;
-    transform: translateY(-50%); }
+    right: 20px;
+    top: 17px; }
 
 .navbar-light .navbar-nav .nav-link {
   color: #646464;
@@ -112,11 +111,22 @@ header {
     color: #ffffff; }
 
 .navbar-light .navbar-nav li {
-  width: 18%;
   border-right: 2px solid #eee; }
 
 .dropdown-menu {
   min-width: auto; }
 
-.swiper-container {
-  height: 600px; }
+.carousel-item img {
+  min-height: 35vh; }
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin: auto;
+  height: 30%;
+  width: 3%;
+  background-color: #222;
+  opacity: 1; }
+  .carousel-control-prev-icon, .carousel-control-prev-icon,
+  .carousel-control-next-icon,
+  .carousel-control-next-icon {
+    width: 15px; }
