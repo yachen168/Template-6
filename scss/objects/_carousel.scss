@@ -1,3 +1,12 @@
-.swiper-container {
-    height: 600px;
+.carousel-control-prev,
+.carousel-control-next {
+    margin: auto;
+    height: 30%;
+    width: 3%;
+    background-color: #222;
+    opacity: 1;
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 15px;
+    }
 }
