@@ -3,7 +3,8 @@ h4 {
   margin: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #646464; }
 
 ul {
   margin: 0; }
@@ -93,11 +94,11 @@ header {
   .search input::placeholder {
     font-size: 13px;
     font-weight: 700;
-    color: #9E9E9E; }
+    color: #cccccc; }
   .search .fa-search {
     position: absolute;
     pointer-events: none;
-    color: #9E9E9E;
+    color: #cccccc;
     right: 20px;
     top: 17px; }
 
@@ -130,3 +131,44 @@ header {
   .carousel-control-next-icon,
   .carousel-control-next-icon {
     width: 15px; }
+
+.service-card {
+  background-color: #E8E8E8;
+  text-align: center;
+  padding: 40px 0px 30px;
+  color: #646464;
+  margin: 2px; }
+  .service-card h3 {
+    font-size: 16px; }
+  .service-card-img {
+    width: 60px;
+    margin: 0 auto 20px; }
+  .service-card p {
+    height: 85px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 25px;
+    overflow-y: scroll; }
+    @media (min-width: 992px) {
+      .service-card p {
+        height: 110px; } }
+    .service-card p::-webkit-scrollbar {
+      width: 5px; }
+    .service-card p::-webkit-scrollbar-thumb {
+      border-radius: 20px;
+      background-color: #646464; }
+  .service-card .more {
+    width: 65px;
+    height: 25px;
+    margin: 0 auto;
+    color: #646464;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #cccccc; }
+  .service-card:hover {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6); }
+  @media (min-width: 992px) {
+    .service-card {
+      margin: -27px 15px 10px; } }
