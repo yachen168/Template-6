@@ -20,7 +20,7 @@
     },
     "homepage": "https://github.com/yachen168/Template-6#readme",
     "dependencies": {
-        "node-sass": "^4.13.1",
-        "swiper": "^5.3.0"
+        "bootstrap": "^4.4.1",
+        "node-sass": "^4.13.1"
     }
 }
