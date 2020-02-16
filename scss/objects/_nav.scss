@@ -15,9 +15,8 @@
         position: absolute;
         pointer-events: none;
         color: $midGray;
-        right: 10%;
-        top: 50%;
-        transform: translateY(-50%);
+        right: 20px;
+        top: 17px;
     }
 }
 
@@ -33,7 +32,6 @@
         }
     }
     li {
-        width: 18%;
         border-right: 2px solid#eee;
     }
 }
