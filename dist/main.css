@@ -26,6 +26,9 @@ img {
   width: 100%;
   vertical-align: middle; }
 
+h2 {
+  font-size: 25px; }
+
 .template {
   position: absolute; }
   .template img {
@@ -141,8 +144,9 @@ header {
   .service-card p {
     height: 85px;
     font-size: 14px;
-    font-weight: 500;
-    padding: 0 25px;
+    font-weight: 600;
+    padding: 0 35px;
+    line-height: 1.2;
     overflow-y: scroll; }
     @media (min-width: 992px) {
       .service-card p {
@@ -154,12 +158,13 @@ header {
       background-color: #646464; }
   .service-card .more {
     width: 65px;
-    height: 25px;
+    padding: 4px 0;
     margin: 0 auto;
     color: #646464;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
     background-color: #cccccc; }
   .service-card:hover {
     color: #ffffff;
