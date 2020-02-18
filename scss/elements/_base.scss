@@ -4,7 +4,7 @@
 }
 
 html {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 body {
@@ -18,5 +18,16 @@ img {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+main {
+    background: url('../images/subbg.gif');
+}
+
+figcaption {
+    color: $darkGray;
+    font-size: 14px;
+    font-weight: 500;
 }

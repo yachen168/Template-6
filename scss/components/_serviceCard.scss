@@ -43,9 +43,12 @@
     }
     &:hover {
         color: $white;
-        background-color: rgba($color: #000000, $alpha: 0.6)
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        p::-webkit-scrollbar-thumb {
+            background-color: $gray;
+        }
     }
     @media (min-width: 992px) {
-        margin: -27px 15px 10px;
+        margin: -30px 15px 0;
     }
 }
