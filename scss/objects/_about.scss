@@ -2,20 +2,3 @@
     padding: 30px 25px 55px;
     box-shadow: 0 41px 2px -40px $midGray;
 }
-
-.welcome {
-    font-size: 0;
-    &-img {
-        float: left;
-        margin-bottom: 25px;
-    }
-    figure {
-        display: flow-root;
-    }
-    figcaption {
-        display: inline-block;
-        @media (min-width: 768px) {
-            display: flow-root;
-        }
-    }
-}

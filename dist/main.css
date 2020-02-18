@@ -27,8 +27,11 @@ img {
   vertical-align: middle; }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 25px; }
+  @media (min-width: 576px) {
+    h2 {
+      font-size: 30px; } }
 
 main {
   background: url("../images/subbg.gif");
@@ -154,34 +157,39 @@ header {
   padding: 30px 25px 55px;
   box-shadow: 0 41px 2px -40px #cccccc; }
 
-.welcome {
-  font-size: 0; }
-  .welcome-img {
-    float: left;
-    margin-bottom: 25px; }
-  .welcome figure {
-    display: flow-root; }
-  .welcome figcaption {
-    display: inline-block; }
-    @media (min-width: 768px) {
-      .welcome figcaption {
-        display: flow-root; } }
-
 .feature {
   position: relative;
-  padding: 50px 25px 75px; }
-  .feature h2 {
-    margin-left: 15px; }
+  padding: 50px 40px 75px; }
   .feature .arrows {
     position: absolute;
     right: 40px;
-    top: 65px; }
+    top: 75px; }
     .feature .arrows a {
       text-decoration: none;
       color: #cccccc;
       font-size: 20px; }
     .feature .arrows i + i {
       margin-left: 5px; }
+  @media (min-width: 576px) {
+    .feature h2 {
+      margin-left: 15px; }
+    .feature .arrows {
+      top: 65px; } }
+
+.image-wrapper {
+  display: flex;
+  overflow: hidden; }
+  .image-wrapper .image {
+    width: 100%;
+    flex: 0 0 auto; }
+    @media (min-width: 576px) {
+      .image-wrapper .image {
+        width: calc((100vw - 90px) / 2); } }
+    @media (min-width: 768px) {
+      .image-wrapper .image {
+        width: calc((100% - 90px)/4); } }
+  .image-wrapper .image + .image {
+    margin-left: 30px; }
 
 .service-card {
   background-color: #E8E8E8;
