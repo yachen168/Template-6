@@ -1,0 +1,20 @@
+.feature {
+    position: relative;
+    padding: 50px 25px 75px;
+    h2 {
+        margin-left: 15px;
+    }
+    .arrows {
+        position: absolute;
+        right: 40px;
+        top: 65px;
+        a {
+            text-decoration: none;
+            color: $midGray;
+            font-size: 20px;
+        }
+        i+i {
+            margin-left: 5px;
+        }
+    }
+}
