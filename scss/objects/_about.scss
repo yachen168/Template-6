@@ -6,4 +6,7 @@
             margin-bottom: 25px;
         }
     }
+    [class^="col"]>div {
+        padding: 30px 15px;
+    }
 }

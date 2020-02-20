@@ -1,7 +1,10 @@
 footer {
     background-color: $white;
-    padding: 0 30px 30px;
+    padding: 0 25px 30px;
     box-shadow: 0 0 2px 0 rgba($color: $darkGray, $alpha: 0.7), 0 0 5px rgba($color: $darkGray, $alpha: 0.7);
+    [class^="col"]>div {
+        padding: 30px 15px;
+    }
     h3 {
         font-size: 20px;
     }
