@@ -3,6 +3,9 @@ header {
     color: $black;
     padding: 35px 40px;
     overflow: hidden;
+    box-shadow: 0 0 3px 0 rgba($color: $darkGray, $alpha: 0.7), 0 0 5px rgba($color: $darkGray, $alpha: 0.7);
+    // border: 1px solid rgba($color: $darkGray, $alpha: 0.5);
+    // box-shadow: 0 0 3px rgba($color: $darkGray, $alpha: 0.7);
     .logo {
         max-width: 320px;
         margin: 0 auto 10px;

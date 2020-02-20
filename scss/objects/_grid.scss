@@ -1,9 +1,9 @@
 .own-container {
-    max-width: 1250px;
-    padding: 5px 0;
+    max-width: 1200px;
+    padding: 5px 0 0;
 }
 
 [class^="col"]>div {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px 30px;
+    // height: 100%;
 }

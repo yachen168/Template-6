@@ -1,7 +1,7 @@
 .news-item {
     display: flex;
     .news-img {
-        flex: 0 0 37%;
+        flex: 0 0 40%;
         margin-right: 30px;
     }
     .news-body {
@@ -17,7 +17,7 @@
         margin-bottom: 25px;
     }
     p {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
         color: $darkGray;
     }
