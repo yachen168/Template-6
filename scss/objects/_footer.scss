@@ -79,12 +79,12 @@ footer {
             border: 1px solid $midGray;
             border-radius: 3px;
             font-size: 12px;
+            vertical-align: top;
             &::placeholder {
                 font-weight: 600;
             }
         }
         textarea {
-            margin-top: 6px;
             height: 105px;
             resize: none;
         }
