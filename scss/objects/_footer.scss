@@ -117,7 +117,6 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
     padding: 10px 0;
     background-color: $black;
@@ -131,7 +130,6 @@ footer {
         }
     }
     nav {
-        order: -1;
         a {
             display: inline-block;
             text-decoration: none;
@@ -142,12 +140,5 @@ footer {
                 color: $green;
             }
         }
-        @media (min-width: 992px) {
-            order: 0;
-        }
-    }
-    @media (min-width: 992px) {
-        flex-direction: row;
-        justify-content: space-between;
     }
 }
