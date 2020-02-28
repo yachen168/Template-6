@@ -42,9 +42,9 @@ main {
   box-shadow: 0 0 2px 0 rgba(100, 100, 100, 0.7), 0 0 5px rgba(100, 100, 100, 0.7); }
 
 figcaption {
-  color: #646464;
   font-size: 14px;
-  font-weight: 500; }
+  font-weight: 500;
+  color: #646464; }
 
 .own-container {
   max-width: 1200px;
@@ -97,9 +97,9 @@ header {
   height: 100%;
   border-top: 1px solid #E8E8E8; }
   .navigation .navbar .navbar-nav .nav-link {
-    color: #646464;
-    font-weight: 500;
     font-size: 13px;
+    font-weight: 500;
+    color: #646464;
     text-align: center;
     padding: 16px 25px; }
     .navigation .navbar .navbar-nav .nav-link:hover {
@@ -224,15 +224,16 @@ footer {
     font-size: 20px; }
   footer .tweet p {
     font-size: 14px;
-    font-weight: 500; }
+    font-weight: 500;
+    color: #161616; }
   footer .testimonial .dialog {
     position: relative;
     padding: 15px 10px 15px 25px;
     background-color: #E8E8E8;
     border-radius: 3px 3px 3px 0;
     font-size: 13px;
-    color: #646464;
     font-weight: 500;
+    color: #646464;
     line-height: 1.1;
     margin-bottom: 30px;
     border: 1px solid #cccccc; }
@@ -288,9 +289,9 @@ footer {
     padding: 5px 10px;
     margin-top: 20px;
     background-color: #161616;
-    color: #ffffff;
     font-size: 14px;
     font-weight: 500;
+    color: #ffffff;
     border: none; }
     footer .contact button:hover {
       background-color: #81B700; }
@@ -314,7 +315,8 @@ footer {
   text-align: center; }
   .copyright-and-nav .copyright {
     font-size: 13px;
-    font-weight: 500; }
+    font-weight: 500;
+    color: #646464; }
     .copyright-and-nav .copyright span:nth-child(2) {
       color: #81B700; }
   .copyright-and-nav nav a {
@@ -344,6 +346,7 @@ footer {
     padding: 0 30px;
     font-size: 14px;
     font-weight: 600;
+    color: #646464;
     line-height: 1.2;
     overflow-y: scroll; }
     @media (min-width: 992px) {
@@ -359,12 +362,12 @@ footer {
     width: 65px;
     padding: 4px 0;
     margin: 0 auto;
-    color: #646464;
     text-align: center;
     text-decoration: none;
+    background-color: #cccccc;
     font-size: 14px;
     font-weight: 600;
-    background-color: #cccccc; }
+    color: #646464; }
   .service-card:hover {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.6);
@@ -386,10 +389,10 @@ footer {
     margin-right: 10px; }
   .choose-item p {
     flex: 0 0 74%;
+    margin-bottom: 0;
     font-size: 16px;
-    color: #646464;
     font-weight: 500;
-    margin-bottom: 0; }
+    color: #646464; }
 
 .choose-item + .choose-item {
   padding-top: 15px; }
@@ -406,8 +409,8 @@ footer {
     padding: 5px 0;
     text-align: center;
     font-size: 16px;
-    background-color: #81B700;
     color: #ffffff;
+    background-color: #81B700;
     margin-bottom: 25px; }
   .news-item p {
     font-size: 13px;

@@ -49,9 +49,8 @@ header {
             }
         }
         h4 {
-            font-size: 13px;
-            font-weight: 500;
-            color: $darkGray;
+            @include font(13px,
+            500);
         }
     }
 }
