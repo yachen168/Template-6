@@ -1,9 +1,10 @@
 # Template-6
+
 ## 目標
 1. 閱讀 W3C 與 MDN 規範，理解 CSS 排版原理。
 2. 閱讀 Bootstrap4 官方文件、查找 source code，瞭解網格(Grid)系統、RWD，以及如何運用 Bootstrap4 的 components 與 classes。
-3. 使用 npm 管理套件
-4. 使用 Sass
+3. 使用 npm 管理套件。
+4. 使用 Sass。
 
 
 <br>
@@ -12,6 +13,7 @@
 - Sass
 - RWD
 - npm
+- Bootstrap4
 
 <br>
 
@@ -33,7 +35,7 @@
   - 檔案拆分
   - 變數
   - mixin 與 extend 差異
-  
+
 <br>
 
 ## 成果 Demo
