@@ -21,6 +21,6 @@
     "homepage": "https://github.com/yachen168/Template-6#readme",
     "dependencies": {
         "bootstrap": "^4.4.1",
-        "node-sass": "^4.13.1"
+        "node-sass": "^7.0.0"
     }
 }
